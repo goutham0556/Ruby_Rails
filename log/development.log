@@ -1,0 +1,1253 @@
+Started GET "/" for ::1 at 2021-11-16 17:53:13 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2021-11-16 17:53:14 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-16 17:53:47 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2021-11-16 17:53:47 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-16 17:53:57 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2021-11-16 17:53:57 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-16 17:54:37 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2021-11-16 17:54:38 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-16 17:55:52 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2021-11-16 17:55:52 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  Peer authentication failed for user "root"
+):
+  
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.4.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.4.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.4.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-16 17:56:03 +0530
+  [1m[35m (83.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.7ms | Allocations: 421)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3676)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-11-16 17:56:04 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7410474086472690345)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateBooks (20211116122921)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (690.2ms)[0m  [1m[35mCREATE TABLE "books" ("id" bigserial primary key, "book_id" integer, "book_title" character varying, "author" character varying, "publisher" character varying, "year" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211116122921"]]
+  [1m[36mTRANSACTION (21.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (71.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(7410474086472690345)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:03:13 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 421)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3277)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:03:14 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.7ms | Allocations: 209)
+Completed 200 OK in 21ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 1010)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 1], ["book_title", "html"], ["author", "abc"], ["publisher", "xcv"], ["year", 2001], ["created_at", "2021-11-16 12:43:30.803792"], ["updated_at", "2021-11-16 12:43:30.803792"]]
+  [1m[36mTRANSACTION (15.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 1], ["book_title", "HTML & CSS: Design and Build Web Sites"], ["author", " Jon Duckett"], ["publisher", "Wiley"], ["year", 2001], ["created_at", "2021-11-16 12:45:03.416141"], ["updated_at", "2021-11-16 12:45:03.416141"]]
+  [1m[36mTRANSACTION (531.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2021-11-16 18:41:19 +0530
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/goudam/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.3ms | Allocations: 421)
+Completed 200 OK in 94ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 3277)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 18:41:48 +0530
+  
+SyntaxError (/home/goudam/ruby-3.0.2/mybooks/app/controllers/api/v1/books_controller.rb:2: class/module name must be CONSTANT
+	module v1
+	       ^~
+):
+  
+app/controllers/api/v1/books_controller.rb:2: class/module name must be CONSTANT
+app/controllers/api/v1/books_controller.rb:2: class/module name must be CONSTANT
+Started GET "/api/v1/books" for ::1 at 2021-11-16 18:43:17 +0530
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (27.4ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 88ms (Views: 11.5ms | ActiveRecord: 39.6ms | Allocations: 6765)
+
+
+Started GET "/api/v1/books" for 127.0.0.1 at 2021-11-16 18:44:10 +0530
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 827)
+
+
+Started GET "/api/v1/books/1" for ::1 at 2021-11-16 18:47:16 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 22ms (ActiveRecord: 4.3ms | Allocations: 2911)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books/0" for ::1 at 2021-11-16 18:47:26 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"0"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 547)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=0):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books/1" for ::1 at 2021-11-16 18:48:56 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 8ms (ActiveRecord: 3.8ms | Allocations: 2277)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books/1" for ::1 at 2021-11-16 18:48:57 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 517)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books" for ::1 at 2021-11-16 18:49:04 +0530
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 3952)
+
+
+Started GET "/api/v1/books/1" for ::1 at 2021-11-16 18:49:09 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 506)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books" for ::1 at 2021-11-16 18:49:12 +0530
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 821)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (1.2ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 1], ["book_title", "HTML & CSS: Design and Build Web Sites"], ["author", " Jon Duckett"], ["publisher", "Wiley"], ["year", 2001], ["created_at", "2021-11-16 13:19:59.823070"], ["updated_at", "2021-11-16 13:19:59.823070"]]
+  [1m[36mTRANSACTION (39.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.6ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 2], ["book_title", "CSS: Design  Web Sites"], ["author", " James"], ["publisher", "Wiley"], ["year", 2002], ["created_at", "2021-11-16 13:19:59.868599"], ["updated_at", "2021-11-16 13:19:59.868599"]]
+  [1m[36mTRANSACTION (22.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/books" for ::1 at 2021-11-16 18:50:06 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 54ms (Views: 48.2ms | ActiveRecord: 2.9ms | Allocations: 9058)
+
+
+Started GET "/api/v1/books/1" for ::1 at 2021-11-16 18:50:31 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1430)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books/2" for ::1 at 2021-11-16 18:50:33 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 735)
+
+
+Started GET "/api/v1/books/3" for ::1 at 2021-11-16 18:50:35 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 645)
+
+
+Started GET "/api/v1/books/4" for ::1 at 2021-11-16 18:50:38 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 656)
+
+
+Started POST "/api/v1/books" for ::1 at 2021-11-16 19:00:25 +0530
+Processing by Api::V1::BooksController#create as */*
+Completed 422 Unprocessable Entity in 113ms (Views: 71.9ms | ActiveRecord: 20.5ms | Allocations: 11330)
+
+
+Started POST "/api/v1/books" for ::1 at 2021-11-16 19:02:39 +0530
+Processing by Api::V1::BooksController#create as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+[31mUnpermitted parameter: :book[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+  [1m[36mBook Create (20.3ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 4], ["book_title", "book"], ["author", "author"], ["publisher", "publisher"], ["year", 2004], ["created_at", "2021-11-16 13:32:39.537389"], ["updated_at", "2021-11-16 13:32:39.537389"]]
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (119.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+Completed 200 OK in 147ms (Views: 0.6ms | ActiveRecord: 140.1ms | Allocations: 2601)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 19:27:06 +0530
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 56ms (Views: 47.7ms | ActiveRecord: 4.3ms | Allocations: 7750)
+
+
+Started GET "/api/v1/books/4" for ::1 at 2021-11-16 19:27:23 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "id"=>"4", "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 38ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 1604)
+
+
+Started DELETE "/api/v1/books/4" for ::1 at 2021-11-16 19:27:33 +0530
+Processing by Api::V1::BooksController#destroy as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "id"=>"4", "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:31:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+  [1m[36mBook Destroy (0.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+  [1m[36mTRANSACTION (57.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+Completed 200 OK in 68ms (Views: 0.7ms | ActiveRecord: 59.6ms | Allocations: 5713)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 19:27:40 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1100)
+
+
+Started DELETE "/api/v1/books/4" for ::1 at 2021-11-16 19:27:52 +0530
+Processing by Api::V1::BooksController#destroy as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "id"=>"4", "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:31:in `destroy'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 553)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=4):
+  
+app/controllers/api/v1/books_controller.rb:31:in `destroy'
+Started GET "/api/v1/books/4" for ::1 at 2021-11-16 19:28:00 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "id"=>"4", "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 505)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=4):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books" for ::1 at 2021-11-16 19:28:04 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 1031)
+
+
+Started DELETE "/api/v1/books/5" for ::1 at 2021-11-16 19:28:15 +0530
+Processing by Api::V1::BooksController#destroy as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "id"=>"5", "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:31:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+  [1m[36mBook Destroy (0.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+  [1m[36mTRANSACTION (21.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+Completed 200 OK in 25ms (Views: 0.6ms | ActiveRecord: 21.5ms | Allocations: 1905)
+
+
+Started GET "/api/v1/books/5" for ::1 at 2021-11-16 19:28:22 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "id"=>"5", "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 506)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=5):
+  
+app/controllers/api/v1/books_controller.rb:10:in `show'
+Started GET "/api/v1/books" for ::1 at 2021-11-16 19:28:26 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004, "book"=>{"book_id"=>4, "book_title"=>"book", "author"=>"author", "publisher"=>"publisher", "year"=>2004}}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 918)
+
+
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:34:29 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204, "id"=>"3", "book"=>{"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204}}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 6.1ms | Allocations: 6730)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:37:01 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204, "id"=>"3", "book"=>{"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started GET "/api/v1/books/3" for ::1 at 2021-11-16 19:37:06 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204, "id"=>"3", "book"=>{"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 733)
+
+
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:37:52 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204, "id"=>"3", "book"=>{"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms | Allocations: 2984)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:40:44 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204, "id"=>"3", "book"=>{"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204}}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 4.9ms | Allocations: 4099)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:41:07 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204, "id"=>"3", "book"=>{"book_id"=>10, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2204}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.3ms | Allocations: 6505)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:41:39 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001, "id"=>"3", "book"=>{"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:42:08 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_title"=>"updted", "id"=>"3", "book"=>{"book_title"=>"updted"}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms | Allocations: 2971)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:43:54 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_title"=>"updted", "id"=>"3", "book"=>{"book_title"=>"updted"}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.6ms | Allocations: 6514)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:44:02 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001, "id"=>"3", "book"=>{"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/2" for ::1 at 2021-11-16 19:44:12 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001, "id"=>"2", "book"=>{"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 2, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 12:45:03.416141000 +0000", updated_at: "2021-11-16 12:45:03.416141000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started GET "/api/v1/books/2" for ::1 at 2021-11-16 19:44:19 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001, "id"=>"2", "book"=>{"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 732)
+
+
+Started PUT "/api/v1/books/2" for ::1 at 2021-11-16 19:44:33 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001, "id"=>"2", "book"=>{"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms | Allocations: 2984)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 2, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 12:45:03.416141000 +0000", updated_at: "2021-11-16 12:45:03.416141000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started POST "/api/v1/books" for ::1 at 2021-11-16 19:44:43 +0530
+Processing by Api::V1::BooksController#create as */*
+  Parameters: {"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001, "book"=>{"book_id"=>4, "book_title"=>"upbook", "author"=>"upauthor", "publisher"=>"uppublisher", "year"=>2001}}
+[31mUnpermitted parameter: :book[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+  [1m[36mBook Create (0.6ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 4], ["book_title", "upbook"], ["author", "upauthor"], ["publisher", "uppublisher"], ["year", 2001], ["created_at", "2021-11-16 14:14:43.803930"], ["updated_at", "2021-11-16 14:14:43.803930"]]
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (16.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+Completed 200 OK in 24ms (Views: 0.3ms | ActiveRecord: 17.3ms | Allocations: 2539)
+
+
+Started PUT "/api/v1/books/4" for ::1 at 2021-11-16 19:45:05 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"4", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 508)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=4):
+  
+app/controllers/api/v1/books_controller.rb:37:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:45:11 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"3", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:39:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:49:00 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"3", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 4.7ms | Allocations: 6526)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started PUT "/api/v1/books/3" for ::1 at 2021-11-16 19:49:02 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"3", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms | Allocations: 2984)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 3, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 13:19:59.823070000 +0000", updated_at: "2021-11-16 13:19:59.823070000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started PUT "/api/v1/books/2" for ::1 at 2021-11-16 19:49:18 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"2", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 2, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 12:45:03.416141000 +0000", updated_at: "2021-11-16 12:45:03.416141000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started PUT "/api/v1/books/2" for ::1 at 2021-11-16 19:49:19 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"2", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 2, book_id: 1, book_title: "HTML & CSS: Design and Build Web Sites", author: " Jon Duckett", publisher: "Wiley", year: 2001, created_at: "2021-11-16 12:45:03.416141000 +0000", updated_at: "2021-11-16 12:45:03.416141000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started GET "/api/v1/books/2" for ::1 at 2021-11-16 19:49:23 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"2", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 732)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 19:49:28 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 1082)
+
+
+Started PUT "/api/v1/books/6" for ::1 at 2021-11-16 19:49:38 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"6", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms | Allocations: 2983)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 6, book_id: 4, book_title: "upbook", author: "upauthor", publisher: "uppublisher", year: 2001, created_at: "2021-11-16 14:14:43.803930000 +0000", updated_at: "2021-11-16 14:14:43.803930000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started PUT "/api/v1/books/6" for ::1 at 2021-11-16 19:50:26 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"6", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms | Allocations: 2982)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Book id: 6, book_id: 4, book_title: "upbook", author: "upauthor", publisher: "uppublisher", year: 2001, created_at: "2021-11-16 14:14:43.803930000 +0000", updated_at: "2021-11-16 14:14:43.803930000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started PUT "/api/v1/books/6" for ::1 at 2021-11-16 19:50:47 +0530
+Processing by Api::V1::BooksController#update as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"6", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:37:in `update'
+[31mUnpermitted parameters: :id, :book[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 2.3ms | Allocations: 4056)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/controllers/api/v1/books_controller.rb:38:in `update'
+Started GET "/api/v1/books" for ::1 at 2021-11-16 20:35:00 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (3.4ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 517ms (Views: 4.1ms | ActiveRecord: 215.0ms | Allocations: 3323)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 20:36:45 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 681)
+
+
+  [1m[35m (39.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.8ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 1], ["book_title", "HTML & CSS: Design and Build Web Sites"], ["author", " Jon Duckett"], ["publisher", "Wiley"], ["year", 2001], ["created_at", "2021-11-16 15:10:07.198189"], ["updated_at", "2021-11-16 15:10:07.198189"]]
+  [1m[36mTRANSACTION (49.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 2], ["book_title", "CSS in Depth"], ["author", "  Keith Grant"], ["publisher", "Manning Publications"], ["year", 2000], ["created_at", "2021-11-16 15:10:07.255939"], ["updated_at", "2021-11-16 15:10:07.255939"]]
+  [1m[36mTRANSACTION (21.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.6ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 3], ["book_title", "Cascading Style Sheets: The Definitive Guide"], ["author", "  Eric A. Meyer"], ["publisher", "Reilly Media"], ["year", 2000], ["created_at", "2021-11-16 15:10:07.284547"], ["updated_at", "2021-11-16 15:10:07.284547"]]
+  [1m[36mTRANSACTION (20.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/books" for ::1 at 2021-11-16 20:40:13 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (3.5ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 34ms (Views: 1.8ms | ActiveRecord: 3.5ms | Allocations: 1027)
+
+
+Started GET "/api/v1/books/7" for ::1 at 2021-11-16 20:45:11 +0530
+Processing by Api::V1::BooksController#show as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "id"=>"7", "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (32.4ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `show'
+Completed 200 OK in 248ms (Views: 0.9ms | ActiveRecord: 82.5ms | Allocations: 674)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 20:47:01 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005, "book"=>{"book_id"=>4, "book_title"=>"ook", "author"=>"or", "publisher"=>"ublisher", "year"=>2005}}
+  [1m[36mBook Load (12.3ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 1.6ms | ActiveRecord: 12.3ms | Allocations: 1027)
+
+
+Started POST "/api/v1/books" for ::1 at 2021-11-16 20:48:49 +0530
+Processing by Api::V1::BooksController#create as */*
+  Parameters: {"book_id"=>4, "book_title"=>"Eloquent JavaScript", "author"=>"Marijn Haverbeke", "publisher"=>"Shroff Publishers", "year"=>2011, "book"=>{"book_id"=>4, "book_title"=>"Eloquent JavaScript", "author"=>"Marijn Haverbeke", "publisher"=>"Shroff Publishers", "year"=>2011}}
+[31mUnpermitted parameter: :book[0m
+  [1m[36mTRANSACTION (35.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+  [1m[36mBook Create (254.9ms)[0m  [1m[32mINSERT INTO "books" ("book_id", "book_title", "author", "publisher", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["book_id", 4], ["book_title", "Eloquent JavaScript"], ["author", "Marijn Haverbeke"], ["publisher", "Shroff Publishers"], ["year", 2011], ["created_at", "2021-11-16 15:18:49.176619"], ["updated_at", "2021-11-16 15:18:49.176619"]]
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (38.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/books_controller.rb:21:in `create'
+Completed 200 OK in 435ms (Views: 0.6ms | ActiveRecord: 328.6ms | Allocations: 2184)
+
+
+Started GET "/api/v1/books" for ::1 at 2021-11-16 20:52:53 +0530
+Processing by Api::V1::BooksController#index as */*
+  Parameters: {"book_id"=>4, "book_title"=>"Eloquent JavaScript", "author"=>"Marijn Haverbeke", "publisher"=>"Shroff Publishers", "year"=>2011, "book"=>{"book_id"=>4, "book_title"=>"Eloquent JavaScript", "author"=>"Marijn Haverbeke", "publisher"=>"Shroff Publishers", "year"=>2011}}
+  [1m[36mBook Load (19.1ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/books_controller.rb:6:in `index'
+Completed 200 OK in 22ms (Views: 1.9ms | ActiveRecord: 19.1ms | Allocations: 1141)
+
+
+Started DELETE "/api/v1/books/7" for ::1 at 2021-11-16 20:53:12 +0530
+Processing by Api::V1::BooksController#destroy as */*
+  Parameters: {"book_id"=>4, "book_title"=>"Eloquent JavaScript", "author"=>"Marijn Haverbeke", "publisher"=>"Shroff Publishers", "year"=>2011, "id"=>"7", "book"=>{"book_id"=>4, "book_title"=>"Eloquent JavaScript", "author"=>"Marijn Haverbeke", "publisher"=>"Shroff Publishers", "year"=>2011}}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/books_controller.rb:31:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+  [1m[36mBook Destroy (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+  [1m[36mTRANSACTION (19.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/books_controller.rb:32:in `destroy'
+Completed 200 OK in 24ms (Views: 0.3ms | ActiveRecord: 20.4ms | Allocations: 1929)
+
+
